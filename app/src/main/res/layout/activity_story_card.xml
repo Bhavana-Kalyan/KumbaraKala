@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF6EE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#B5451B"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#F5E6D8"/>
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Story Card"
+            android:backgroundTint="#B5451B"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="14dp"
+            android:layout_marginTop="16dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvStoryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap the button above to generate your story card"
+            android:textSize="15sp"
+            android:textColor="#2C1A0E"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="6dp"/>
+
+        <ImageView
+            android:id="@+id/cardPreview"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="16dp"
+            android:background="#EEEEEE"/>
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share on WhatsApp"
+            android:backgroundTint="#25D366"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="14dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</ScrollView>
