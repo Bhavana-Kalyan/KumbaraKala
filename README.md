@@ -24,3 +24,8 @@ FileProvider, SharedPreferences
 3. Get free API key from aistudio.google.com/apikey
 4. Replace YOUR_API_KEY_HERE in StoryCardActivity.kt
 5. Run on Android phone API 24 and above
+
+## Developed By
+Bhavana Kalyan K | USN: 1SJ22CS026
+8th Sem CSE | SJCIT | VTU
+Internship at Mind Matrix
